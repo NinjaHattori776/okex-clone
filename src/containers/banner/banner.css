@@ -1,0 +1,47 @@
+.main_bg_banner {
+    background-color: blueviolet;
+    height: 350px;
+}
+
+.main_bg_banner h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 42px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.main_bg_banner p {
+    text-align: center;
+    color: gray;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.below_p{
+    font-size: 15px !important;
+    padding-top: 15px !important;
+}
+
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+    height: 28px !important;
+    width: 300px !important;
+    border-radius: 5px;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    height: 45px;
+    width: 130px;
+    ;
+}
+
+@media only screen and (max-width: 768px) {
+    .main_bg_banner {
+        height: 450px;
+    }
+
+
+}

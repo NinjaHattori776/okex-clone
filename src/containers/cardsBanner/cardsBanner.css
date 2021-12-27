@@ -1,0 +1,43 @@
+
+.column_cards {
+    margin-top: 50px;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+.row_cards:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column_cards img{
+    width: 90%;
+    border-radius: 12px;
+}
+
+.column_cards p{
+    color: gray;
+    margin-top: 0px;
+    font-size: 17px;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    h1{
+        text-align: center;
+    }
+    .column_cards {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .column_cards p{
+        text-align: center;
+    }
+
+}

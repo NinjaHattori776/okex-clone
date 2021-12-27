@@ -1,0 +1,91 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css");
+
+h1 {
+    padding: 1rem;
+}
+
+.grid-container_collapse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 600px;
+}
+
+
+.grid-child2 video {
+    border-radius: 10px;
+}
+
+.grid-child1>.accordion {
+    transform: translateZ(0);
+    background: #f7f9fc;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    width: 60%;
+}
+
+.grid-child1>.accordion>.accordion-toggle {
+    position: absolute;
+    opacity: 0;
+    display: none;
+}
+
+.grid-child1>.accordion>label {
+    position: relative;
+    display: block;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.grid-child1>.accordion>label:after {
+    content: '\f078';
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-family: fontawesome;
+    transform: rotate(90deg);
+    transition: .3s transform;
+}
+
+.grid-child1>.accordion>section {
+    height: 0;
+    transition: .3s all;
+    overflow: hidden;
+}
+
+.grid-child1>.accordion>.accordion-toggle:checked~label:after {
+    transform: rotate(0deg);
+}
+
+.grid-child1>.accordion>.accordion-toggle:checked~section {
+    height: 200px;
+}
+
+.grid-child1>.accordion>section p {
+    margin: 15px 0;
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.grid-child1>.accordion>label {
+    height: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-child1>.accordion {
+        width: 100%;
+    }
+
+    .grid-container_collapse  {
+        height: 400px;
+
+
+    }
+
+}

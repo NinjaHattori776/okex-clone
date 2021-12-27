@@ -1,0 +1,54 @@
+.main_heading {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main_heading h2 {
+    font-size: 40px;
+}
+
+.main_heading p {
+    font-size: 14px;
+    color: gray;
+}
+
+.column {
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column h2 {
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: 450;
+    margin-bottom: 0px;
+}
+
+.column p {
+    color: gray;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main_heading {
+        width: 100%;
+    }
+
+    .main_heading p {
+        padding: 1rem;
+    }
+
+    .column {
+        width: 50%;
+    }
+
+}

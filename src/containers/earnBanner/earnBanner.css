@@ -1,0 +1,53 @@
+.main_bg {
+    background-color: whitesmoke;
+    height: 300px;
+}
+
+.main_bg h4 {
+    padding-top: 45px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 22px;
+    color: gray;
+}
+
+.main_bg h1 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 40px;
+}
+
+.main_bg h1>span {
+    color: blue;
+}
+
+.main_bg p {
+    text-align: center;
+    padding-top: 20px;
+    color: gray;
+}
+
+.main_bg>p>a {
+    color: black;
+    text-decoration: underline;
+}
+
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+    height:28px !important;
+    width: 300px !important;
+    background-color: white !important;
+  
+  }
+  
+  .css-sghohy-MuiButtonBase-root-MuiButton-root{
+  height:45px;
+  width: 130px;
+  ;}
+
+  @media only screen and (max-width: 768px) {
+    .main_bg {
+        height: 350px;
+    }
+
+
+}
